@@ -1,0 +1,99 @@
+*{
+    margin: 0.2%;
+}
+.head{
+    display: flex;
+    background-color: #7fffd4;
+    justify-content: center;
+    padding: 2%;
+    border-radius: 10px;
+    color: azure;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+}
+
+.input{
+    display: flex;
+    gap: 1%;
+    justify-content: center;
+    padding: 1%;
+}
+
+input {
+    padding: 1%;
+    border-radius: 1.56em;
+    border-color: aquamarine;
+}
+
+.input button{
+    padding: 1%;
+    border-radius: 0.5em;
+    background-color: #7fffd4;
+    border-color: aquamarine;
+}
+
+.input button:hover{
+    background-color: aquamarine;
+    border-color: #7fffd4;
+    color: white;
+    cursor: pointer;
+}
+
+.List
+{
+    display: flex;
+    /* background-color: #7fffd4; */
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.items
+{
+    display: flex;
+    flex-direction: row;
+    gap : 13%;
+    background-color: #7fffd45e;
+    padding: 4%;
+    margin-bottom: 2%;
+    border-radius: 1.56em;
+    box-sizing: border-box;
+    /* min-width: fit-content; */
+}
+.items div 
+{
+    display: block;
+    color: rgb(35, 19, 73);
+    font-weight: 400;
+    font-size: 1.3em;
+    font-family: cursive;
+    /* overflow-wrap: break-word; */
+    min-width: min-content;
+}
+
+.items button{
+    /* padding: 1%; */
+    background-color: red;
+    border: none;
+    color: azure;
+    border-radius: 0.4em;
+    /* box-shadow:hwb(from #7fffd4 h w b); */
+
+}
+
+
+#done{
+    background-color: greenyellow;
+    color: rgb(184, 194, 194);
+    white-space: nowrap;
+}
+
+#mdone{
+    background-color: green;
+    cursor: default;
+
+}
+.items button:hover{
+    background-color: #ff69b4;
+    cursor: pointer;
+    color: #7fffd4;
+}
