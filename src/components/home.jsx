@@ -12,8 +12,7 @@ const Home = () => {
         alert('Please enter a todo item');
         return;
     }
-    setTodo([...todo, newTodo]);
-    setNewTodo('');
+    
   }
   const removeTodo = (index) =>{
     const updatedTodos = [...todo];
