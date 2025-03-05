@@ -3,7 +3,7 @@ import './home.css';
 
 const Home = () => {
 
-  const [todo,setTodo]=useState(['abey','leo']);
+  const [todo,setTodo]=useState([]);
   const [newTodo, setNewTodo] = useState('');
   const [disable,setDisable] = useState(false);
   const addTodo = () => {
